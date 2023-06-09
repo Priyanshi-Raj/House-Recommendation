@@ -1,0 +1,234 @@
+
+  
+   .container {
+    display: flex;
+    height: 91vh;
+    overflow: hidden;
+  }
+  
+  .sidebar {
+    width: 20%;
+   
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  
+  .slider-container {
+    margin-bottom: 20px;
+  }
+  
+  .housing-layout-container {
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    margin-bottom: 20px;
+  }
+  
+  .plot-types {
+    margin-bottom: 20px;
+  }
+  
+  .plot-types button {
+    margin-right: 10px;
+  }
+    
+  .layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .housing-layout-row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .housing-layout-plot {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  
+
+  
+  .housing-layout-plot span {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .housing-layout-plot.plot-House {
+    background-color: #b3e5fc;
+  }
+  
+  .housing-layout-plot.plot-Gym {
+    background-color: #c8e6c9;
+  }
+  
+  .housing-layout-plot.plot-Restaurant {
+    background-color: #dcde7a;
+  }
+  
+  .housing-layout-plot.plot-Hospital {
+    background-color: #f97a87;
+  }
+  
+  .recommended-house {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .input-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .input-buttons label {
+    margin-bottom: 5px;
+  }
+  
+  .input-buttons input[type="number"] {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100px;
+  }
+  
+ 
+  .plot-type-button-house {
+    background-color: #f554c7;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .plot-type-button-house:hover {
+    background-color: #f20cb1;
+  }
+  .plot-type-button-gym {
+    background-color: #2dc08c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .plot-type-button-gym:hover {
+    background-color: #035a36;
+  }
+  .plot-type-button-res {
+    background-color: #b4ac05;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .plot-type-button-res:hover {
+    background-color: #aa9f05;
+  }
+  .plot-type-button-hospital {
+    background-color: #f45f5f;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .plot-type-button-hospital:hover {
+    background-color: #f11c1c;
+  } 
+   
+  .buttons {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .buttons button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #101112;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .buttons button:hover {
+    background-color: #4f5153;
+  }
+  .back-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #2e3134;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left:60em;
+    margin-top: -1em;
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+  @media screen and (max-width: 768px) {
+    .container {
+      flex-wrap: nowrap;
+      flex-direction: column;
+    }
+  
+    .sidebar {
+      /* flex: 0 0 20%;
+      height: auto; */
+      display: flex;
+      flex-direction: row;
+      background-color: white;
+      /* width: 100vb; */
+    }
+  
+    .housing-layout-container {
+      flex: 1 0 80%;
+      height: auto;
+    }
+  }
+  /* @media screen and (max-width: 768px) {
+    .container {
+        flex-wrap: nowrap;
+      }
+    
+      .sidebar {
+        flex: 0 0 20%;
+        height: auto;
+      }
+    
+      .housing-layout-container {
+        flex: 1 0 80%;
+      }
+  }  */

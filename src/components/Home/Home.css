@@ -1,0 +1,78 @@
+/* Layout.css */
+.container-home {
+    display: flex;
+    height: 91vh;
+    overflow: hidden;
+  }
+  
+  .left-section {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 40px;
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .left-section h2 {
+    font-size: 24px;
+  
+  }
+  
+  .join-button {
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .join-button:hover {
+    background-color: #034010;
+  }
+  
+  .right-section {
+    flex: 1;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .right-section img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  @media screen and (max-width: 768px) {
+    .container-home {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .left-section,
+    .right-section {
+      width: 100%;
+    }
+  
+    .left-section {
+      padding: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .left-section h2 {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+  
+    .join-button {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  }
