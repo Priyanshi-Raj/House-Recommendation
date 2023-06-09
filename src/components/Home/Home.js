@@ -13,8 +13,8 @@ const Home = () => {
     <div className="container-home">
       <div className="left-section">
         <h2>Want to get the best recommendation for your house by creating your own layout?</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo saepe autem nam doloribus itaque similique modi, consequuntur aperiam maxime quas?</p>
-        <button onClick={handleJoinUs} className="join-button">Join Us</button>
+        <p>You can make your own housing layout by allocating positions for house, gym, restaurants and hospitals; and get the best suggestion for house..</p>
+        <button onClick={handleJoinUs} className="join-button">Get Recommendation</button>
        
         
       </div>
