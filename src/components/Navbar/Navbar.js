@@ -1,11 +1,13 @@
 import React from "react";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <img src="https://img.freepik.com/premium-vector/house-real-estate-logo_7169-95.jpg" alt="Logo" />
+      <Link to="/">
+          <img src="https://img.freepik.com/premium-vector/house-real-estate-logo_7169-95.jpg" alt="Logo" /></Link>
         <h3>House Recommender</h3>
       </div>
       {/* <input type="checkbox" id="navbar-toggle" className="navbar-toggle" /> */}
